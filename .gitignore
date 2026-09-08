@@ -1,0 +1,27 @@
+# Secrets and credentials
+.env
+.env.*
+*.env
+*.key
+*.pem
+*.p12
+*.pfx
+credentials.json
+service-account*.json
+
+# Notebook and data artifacts
+.ipynb_checkpoints/
+*.sqlite3
+*.db
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# OS and editor files
+.DS_Store
+.idea/
+.vscode/
+*.swp
